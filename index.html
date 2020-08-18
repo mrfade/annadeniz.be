@@ -1,0 +1,84 @@
+<!--
+  Author: twitch: no1psycho, name: Enes Solak
+  Hosting: sunucum.cloud <o da benim>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anna Deniz Mi?</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/heart.css">
+  <link rel="stylesheet" href="assets/style.min.css">
+</head>
+
+<body>
+
+  <!-- loading screen -->
+  <div class="loading"> </div>
+  <div class="loading__text">Yükleniyor..</div>
+
+  <div class="page-transition">
+    <!-- images -->
+    <div class="image image1" style="background-image: url(assets/images/image1.jpg);"></div>
+    <div class="image image2" style="background-image: url(assets/images/image2.jpg);"></div>
+    <div class="image image3" style="background-image: url(assets/images/image3.jpg);"></div>
+    <div class="image image4" style="background-image: url(assets/images/image4.jpg);"></div>
+    <div class="image image5" style="background-image: url(assets/images/image5.jpg);"></div>
+
+    <!-- transitions -->
+    <div class="transition transition__black"></div>
+    <div class="transition transition__white"></div>
+
+    <!-- scenes -->
+    <div class="scene scene1">ANNA DENİZ</div>
+    <div class="scene scene__white scene2">O DA KİM?</div>
+    <div class="scene scene3">NASIL "O DA KİM"?</div>
+    <div class="scene scene4">O TWITCH'İN PAMUK ŞEKERİ</div>
+    <div class="scene scene__white flex-direction-column scene5">
+      <span class="main-text mb-1em">BOŞ YAPMADA <br> GEL BENİ TAKİP ET</span>
+      <a class="sub-text" target="_blank" href="https://instagram.com/annadenizsayln">Instagram</a>
+      <a class="sub-text" target="_blank" href="https://twitch.tv/annadeniz">Twitch</a>
+    </div>
+  </div>
+
+  <!-- heart animation -->
+  <div class="center-heart">
+    <div class="heart-wrapper">
+      <div class="heart">
+        <div class="tl"></div>
+        <div class="tr"></div>
+        <div class="bl"></div>
+        <div class="br"></div>
+      </div>
+      <div class="ring"></div>
+      <div class="circles"></div>
+    </div>
+  </div>
+
+  <!-- gsap 2.1.3 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+  <script src="assets/script.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172736333-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-172736333-1');
+  </script>
+
+</body>
+
+</html>
